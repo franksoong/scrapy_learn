@@ -73,7 +73,7 @@ ROBOTSTXT_OBEY = True
 ITEM_PIPELINES = {
     'tutorial.pipelines.TutorialPipeline.TutorialPipeline': 300,
     'tutorial.pipelines.JsonWriterPipeline.JsonWriterPipeline': 800,
-    'tutorial.pipelines.MongoPipeline.MongoPipeline': 900,
+    # 'tutorial.pipelines.MongoPipeline.MongoPipeline': 900,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
